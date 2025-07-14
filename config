@@ -1,4 +1,4 @@
-# This is the configuration file for Ghostty.
+#This is the configuration file for Ghostty.
 #
 # This template file has been automatically created at the following
 # path since Ghostty couldn't find any existing config files on your system:
@@ -34,6 +34,12 @@ keybind = ctrl+super+h=goto_split:left
 keybind = ctrl+super+j=goto_split:down
 keybind = ctrl+super+k=goto_split:up
 keybind = ctrl+super+l=goto_split:right
+
+# Keybindings for creating window
+keybind = ctrl+super+alt+h=new_split:left
+keybind = ctrl+super+alt+j=new_split:down
+keybind = ctrl+super+alt+k=new_split:up
+keybind = ctrl+super+alt+l=new_split:right
 
 theme = dark:catppuccin-frappe,light:catppuccin-latte
 
