@@ -21,7 +21,8 @@
 # separated by equals signs.
 
 font-family = monospace 
-window-padding-x = 2
+window-padding-x = 0
+window-padding-y = 0
 font-size = 8
 
 cursor-style = block
